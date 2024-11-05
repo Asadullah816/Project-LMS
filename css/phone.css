@@ -1,0 +1,30 @@
+@media(max-width:1350px) {
+    .mega-accordion {
+        width: 300px;
+        left: 18em;
+    }
+
+    .mega-acc-ul ul {
+        padding: 10px 20px
+    }
+
+    .navbar-item:hover .career-mega-menu {
+        visibility: visible;
+        height: 100vh;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .courses:hover .all-courses-container {
+        min-height: 100vh;
+    }
+
+    .current-courses:hover .current-courses-container {
+        min-height: 100vh;
+    }
+
+    .career-mega-menu {
+        width: 70%;
+        left: 20%;
+    }
+}
