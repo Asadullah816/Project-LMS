@@ -21,8 +21,7 @@
 
     .current-courses:hover .current-courses-container {
         min-height: 100vh;
-    }
-
+    }               
     .career-mega-menu {
         width: 70%;
         left: 20%;

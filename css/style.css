@@ -988,101 +988,62 @@ section {
 /* ================================================================ */
 .career-mega-menu {
     position: absolute;
-    top: 8 em;
-    left: 30%;
-    width: 50%;
-    height: 0px;
-    min-height: 0em;
-    visibility: visible;
+    top: 7em;
+    left: 37%;
+    width: 27%;
+    display: none !important;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
     transition: all .3s;
-    overflow: hidden;
-    background-color: white;
-
+    background-color: transparent;
+    opacity: 0;
 }
 
 .navbar-item:hover .career-mega-menu {
-    visibility: visible;
-    height: 100%;
-    overflow: visible;
-    z-index: 1;
+    opacity: 1;
+    display: flex !important;
 }
 
-.mega-link {
-    padding: 20px;
+.sub-link,
+.career-link {
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+    padding-block: 1rem;
+    font-weight: bold;
+}
+
+.career-courses {
+    padding: 0px 40px 40px 20px;
+}
+
+.main-courses {
+    padding: 10px 0px;
+}
+
+.header .navbar-custom a:hover {
+    color: var(--primary-color);
 }
 
 .mega-container {
-    padding: 50px;
-}
-
-.mega-col {
-    padding-right: 2em;
-}
-
-.mega-link,
-.mega-acc-ul li a {
-    font-size: 1.7rem;
-    color: var(--black);
-    padding-block: 1rem;
-    font-weight: bold;
-    padding: 0px;
-}
-
-.mega-row {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    row-gap: 20px;
-}
-
-.mega-accordion {
-    position: absolute;
-    top: 1em;
-    left: 19.5em;
-    height: 0%;
-    width: 100%;
-    visibility: hidden;
-    overflow: hidden;
     background-color: white;
-    border: 1px solid var(--primary-color);
-    border-radius: 6px;
+    margin-top: 30px;
 }
 
-.mega-col:hover .mega-accordion {
-    visibility: visible;
-    height: auto;
+.main-courses {
+    position: relative;
 }
 
-.mega-acc-ul li {
-    padding: 20px;
-    visibility: visible;
-    list-style: none;
-}
-
-.all-courses-container,
-.current-courses-container {
+.sub-courses {
     position: absolute;
-    top: 8em;
-    left: 0%;
-    width: 100%;
-    height: 0px;
-    min-height: 0em;
-    visibility: hidden;
-    transition: all .3s;
-    overflow: hidden;
+    top: 0px;
+    left: 38rem;
     background-color: white;
+    width: 88%;
+    display: none !important;
 }
 
-.courses:hover .all-courses-container {
-    visibility: visible;
-    height: 100%;
-    min-height: 60em;
-    overflow: auto;
-}
-
-.current-courses:hover .current-courses-container {
-    visibility: visible;
-    height: 100%;
-    overflow: auto;
-    min-height: 60em;
+.main-courses:hover .sub-courses {
+    display: flex !important;
 }
