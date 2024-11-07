@@ -1,29 +1,68 @@
-@media(max-width:1350px) {
-    .mega-accordion {
-        width: 300px;
-        left: 18em;
-    }
-
-    .mega-acc-ul ul {
-        padding: 10px 20px
-    }
-
-    .navbar-item:hover .career-mega-menu {
-        visibility: visible;
-        height: 100vh;
-        overflow: visible;
-        z-index: 1;
-    }
-
-    .courses:hover .all-courses-container {
-        min-height: 100vh;
-    }
-
-    .current-courses:hover .current-courses-container {
-        min-height: 100vh;
-    }               
+@media(max-width:1580px) {
     .career-mega-menu {
-        width: 70%;
-        left: 20%;
+        left: 31%;
+        width: 35%;
+    }
+}
+
+@media(max-width:1438px) {
+    .career-mega-menu {
+        width: 38%;
+    }
+}
+
+@media(max-width:1160px) {
+    .career-mega-menu {
+        width: 44%;
+        left: 22%;
+    }
+}
+
+@media(max-width:1022px) {
+    .header .navbar-custom.active {
+        right: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        top: 10rem;
+        row-gap: 10px;
+        transition: 0.4s linear;
+    }
+
+    .career-mega-menu {
+        top: 10rem;
+        width: 54%;
+        left: 10%;
+        background-color: white;
+        z-index: 100;
+    }
+}
+
+@media(max-width:767px) {
+    .header .navbar-custom.active {
+        top: 9rem;
+    }
+
+    .career-mega-menu {
+        top: 10rem;
+        width: 75%;
+        left: 0%;
+        background-color: white;
+        z-index: 100;
+    }
+
+    .career-courses {
+        padding: 0px;
+    }
+
+    .sub-courses {
+        position: absolute;
+        top: 9rem;
+        left: 18rem;
+        background-color: white;
+        width: 88%;
+        z-index: 100;
     }
 }

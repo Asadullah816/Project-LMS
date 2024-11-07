@@ -998,6 +998,8 @@ section {
     transition: all .3s;
     background-color: transparent;
     opacity: 0;
+    /* opacity: 1;
+    display: flex !important; */
 }
 
 .navbar-item:hover .career-mega-menu {
@@ -1042,6 +1044,7 @@ section {
     background-color: white;
     width: 88%;
     display: none !important;
+    /* display: flex !important; */
 }
 
 .main-courses:hover .sub-courses {
