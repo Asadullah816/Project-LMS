@@ -421,6 +421,7 @@ section {
     border: 0.1rem solid var(--primary-color);
     background: var(--secondary);
     cursor: pointer;
+    border-radius: 6px;
 }
 
 .subjects .box-container .box:hover {
@@ -998,11 +999,14 @@ section {
     transition: all .3s;
     background-color: transparent;
     opacity: 0;
+    /* opacity: 1;
+    display: flex !important; */
 }
 
 .navbar-item:hover .career-mega-menu {
     opacity: 1;
     display: flex !important;
+    overflow-y: auto;
 }
 
 .sub-link,
@@ -1031,19 +1035,7 @@ section {
     margin-top: 30px;
 }
 
-.main-courses {
-    position: relative;
-}
-
-.sub-courses {
-    position: absolute;
-    top: 0px;
-    left: 38rem;
-    background-color: white;
-    width: 88%;
-    display: none !important;
-}
-
-.main-courses:hover .sub-courses {
-    display: flex !important;
+.acc-link {
+    font-size: 1.5rem !important;
+    border-bottom: 2px solid var(--secondary);
 }

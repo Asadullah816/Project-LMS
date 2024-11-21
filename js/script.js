@@ -13,7 +13,7 @@ document.querySelector('#login-btn').onclick = () => {
 }
 
 window.onscroll = () => {
-  navbar.classList.remove('active');
+  // navbar.classList.remove('active');
   loginForm.classList.remove('active');
 }
 

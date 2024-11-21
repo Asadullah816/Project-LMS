@@ -12,10 +12,13 @@
     }
 
     .navbar-item:hover .career-mega-menu {
-        opacity: 1;
-        left: 30%;
-        width: 70%;
-        display: flex !important;
+        left: 27.5%;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .mega-container {
+        padding-bottom: 50px;
     }
 }
 
@@ -41,13 +44,23 @@
         transition: 0.4s linear;
     }
 
-    .career-mega-menu {
+    .navbar-item:hover .career-mega-menu {
         top: 10rem;
         width: 100%;
         left: 0%;
         background-color: white;
         overflow: auto;
         z-index: 100;
+        overflow-y: auto;
+    }
+
+    .accordion-item,
+    .accordion-body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .sub-courses {
@@ -67,11 +80,20 @@
         width: 100%;
         left: 0%;
         background-color: white;
+        overflow-y: auto;
         z-index: 100;
     }
 
     .career-courses {
         padding: 0px;
+    }
+
+    .main-courses {
+        padding: 5px 0px;
+    }
+
+    .career-link {
+        margin: 0 !important;
     }
 
     .sub-courses {
