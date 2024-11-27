@@ -1,3 +1,8 @@
+.container {
+    max-width: 1560px;
+}
+
+
 @media(max-width:1580px) {
     .career-mega-menu {
         left: 31%;

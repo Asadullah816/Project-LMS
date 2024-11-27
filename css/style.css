@@ -40,9 +40,6 @@ html::-webkit-scrollbar-thumb {
     background: var(--primary-color);
 }
 
-section {
-    padding: 5rem 7%;
-}
 
 .scroll-top {
     display: none;
@@ -120,7 +117,7 @@ section {
     margin-top: -1rem;
 }
 
-.btn {
+.cus-btn {
     position: relative;
     display: inline-block;
     margin-top: 1rem;
@@ -137,11 +134,11 @@ section {
     border-radius: 0.5rem;
 }
 
-#home .btn .text {
+#home .cus-btn .text {
     color: var(--white);
 }
 
-.btn::before {
+.cus-btn::before {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -155,16 +152,16 @@ section {
     z-index: -1;
 }
 
-.btn .text {
+.cus-btn .text {
     color: var(--black);
     transition: 250ms ease;
 }
 
-.btn:is(:hover, :focus-visible)::before {
+.cus-btn:is(:hover, :focus-visible)::before {
     bottom: -50%;
 }
 
-.btn:is(:hover, :focus-visible) .text-1 {
+.cus-btn:is(:hover, :focus-visible) .text-1 {
     transform: translateY(-4rem);
     color: var(--white);
 }
@@ -365,24 +362,24 @@ section {
 
 /* about */
 
-.about .container {
+.about-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.about .container .about-image {
+.about-container .about-image {
     position: relative;
     flex: 1 1 40rem;
 }
 
-.about .container .about-image img {
+.about-container .about-image img {
     width: 100%;
     object-fit: cover;
 }
 
-.about .container .about-image .about-img {
+.about-container .about-image .about-img {
     position: absolute;
     bottom: -10rem;
     right: -1rem;
@@ -390,14 +387,14 @@ section {
     padding-block: 5rem;
 }
 
-.about .container .about-content {
+.about-container.about-content {
     width: 70%;
     padding-left: 6rem;
     padding-top: 1rem;
     text-align: center;
 }
 
-.about .container .about-content p {
+.about-container .about-content p {
     font-size: 1.6rem;
     color: #444;
     padding: 1rem 0;
@@ -937,10 +934,6 @@ section {
     /* .header{
     padding: 2rem 4rem;
   } */
-
-    section {
-        padding: 3rem 2rem;
-    }
 }
 
 @media (max-width: 768px) {
@@ -1039,3 +1032,104 @@ section {
     font-size: 1.5rem !important;
     border-bottom: 2px solid var(--secondary);
 }
+
+/* ============= HERO SECTION ======================*/
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-items {
+    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.432)), url("../images/hero-image.jpeg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-item2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.432)), url("../images/landing-page-1.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-item3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.432)), url("../images/main-bg.jpeg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading {
+    font-size: 6rem;
+    color: white;
+    font-weight: 600;
+    width: 45%;
+    padding-right: 100px;
+    line-height: 66px;
+}
+
+.hero-para {
+    padding: 15px 0px;
+    font-size: 1.5rem;
+    color: white;
+    width: 45%;
+    padding-right: 100px;
+}
+
+.hero-link {
+    margin-top: 30px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container p {
+    font-size: 16px;
+    text-align: center;
+    width: 55%;
+}
+
+.about-p {
+    padding-top: 30px;
+}
+
+section {
+    padding-top: 100px;
+}
+
+/* ================================= */
+/* ------------ COURSES PAGE ---------- */
+/* ================================== */
+.page-hero-section {
+    padding-top: 100px;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url('../images/hero-image.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sec-cont h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* =================================================== */
