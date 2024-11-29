@@ -1,12 +1,14 @@
-.container {
-    max-width: 1560px;
-}
-
-
 @media(max-width:1580px) {
     .career-mega-menu {
         left: 31%;
         width: 35%;
+    }
+
+}
+
+@media(min-width:1580px) {
+    .container {
+        max-width: 1560px;
     }
 }
 
@@ -14,6 +16,10 @@
     .career-mega-menu {
         width: 38%;
         overflow: auto;
+    }
+
+    .header {
+        padding: 2rem 5%;
     }
 
     .navbar-item:hover .career-mega-menu {
@@ -25,6 +31,25 @@
     .mega-container {
         padding-bottom: 50px;
     }
+
+    .hero-heading {
+        padding-top: 150px;
+        font-size: 6rem;
+        width: 60%;
+        line-height: 60px;
+    }
+
+    .hero-para {
+        width: 75%;
+    }
+
+    .carousel-control-prev {
+        left: -60px;
+    }
+
+    .carousel-control-next {
+        right: -50px;
+    }
 }
 
 @media(max-width:1160px) {
@@ -33,6 +58,17 @@
         left: 22%;
     }
 
+    .carousel-control-next {
+        right: 0px;
+    }
+
+    .hero-heading {
+        width: 75%;
+    }
+
+    .header {
+        padding: 2rem 3%;
+    }
 
 }
 
@@ -59,6 +95,10 @@
         overflow-y: auto;
     }
 
+    .hero-heading {
+        width: 100%;
+    }
+
     .accordion-item,
     .accordion-body {
         width: 100%;
@@ -72,6 +112,34 @@
         top: 7rem;
         left: 26rem;
         z-index: 100;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-indicators [data-mdb-target] {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 12px;
+        height: 12px;
+        padding: 0;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 0;
+        border: 1px solid transparents;
+        border-radius: 100px;
+        opacity: .5;
+        transition: opacity .6s ease;
+    }
+
+    .carousel-indicators .active {
+        opacity: 1;
     }
 }
 
@@ -106,5 +174,20 @@
         left: 0rem;
         z-index: 100;
         border: 1px solid #b15351b1;
+    }
+
+    .hero-heading {
+        padding: 0px;
+        font-size: 5rem;
+        line-height: 45px;
+    }
+
+    .hero-para {
+        width: 100%;
+        padding: 20px 50px 0px 0px;
+    }
+
+    .header {
+        padding: 2rem 0%;
     }
 }
