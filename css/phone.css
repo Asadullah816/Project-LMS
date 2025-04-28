@@ -144,9 +144,9 @@
 }
 
 @media(max-width:767px) {
-    .header .navbar-custom.active {
+    /* .header .navbar-custom.active {
         top: 9rem;
-    }
+    } */
 
     .navbar-item:hover .career-mega-menu {
         top: 10rem;
@@ -190,4 +190,22 @@
     .header {
         padding: 2rem 0%;
     }
+
+    .input-dev {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .reg-form {
+        row-gap: 10px;
+        width: 100%;
+    }
+
+    .header .login-form.active {
+        right: 0rem;
+        top: 100%;
+    }
+
+    /* ==================== Regoster Online page =============== */
 }

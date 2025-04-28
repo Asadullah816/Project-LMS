@@ -22,7 +22,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 62%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
@@ -101,7 +101,7 @@ html::-webkit-scrollbar-thumb {
 .heading {
     position: relative;
     color: var(--green);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
@@ -122,7 +122,7 @@ html::-webkit-scrollbar-thumb {
     display: inline-block;
     margin-top: 1rem;
     color: transparent;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
     max-width: max-content;
@@ -226,7 +226,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .navbar-custom .navbar-link {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color: var(--black);
     margin: 0 1rem;
     padding-block: 1rem;
@@ -261,7 +261,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .icons div {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 1.7rem;
     color: var(--black);
     cursor: pointer;
@@ -278,7 +278,7 @@ html::-webkit-scrollbar-thumb {
 .header .login-form {
     position: absolute;
     top: 100%;
-    right: -100%;
+    right: -105%;
     background: var(--white);
     box-shadow: 0.5rem;
     width: 35rem;
@@ -299,8 +299,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .login-form .box {
-    font-size: 1rem;
-    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    margin: 0.7rem 0;
     border: 0.1rem solid rgba(0, 0, 0, 0.1);
     padding: 1rem 1.2rem;
     color: var(--black);
@@ -316,7 +316,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .login-form .remember label {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--black);
     cursor: pointer;
 }
@@ -408,7 +408,7 @@ html::-webkit-scrollbar-thumb {
 
 .subjects .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
 }
 
@@ -426,12 +426,12 @@ html::-webkit-scrollbar-thumb {
 }
 
 .subjects .box-container .box img {
-    height: 6rem;
+    height: 10rem;
     margin-bottom: 0.7rem;
 }
 
 .subjects .box-container .box h3 {
-    font-size: 1rem;
+    font-size: 1.7rem;
     color: #444;
     padding: 0.5rem 0;
     text-transform: initial;
@@ -560,7 +560,7 @@ html::-webkit-scrollbar-thumb {
 
 .teacher .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
 }
 
@@ -622,12 +622,12 @@ html::-webkit-scrollbar-thumb {
 }
 
 .teacher .box-container .box .content h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--black);
 }
 
 .teacher .box-container .box .content span {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 2;
     color: #777;
     text-transform: initial;
@@ -806,7 +806,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .contact .row .image {
-    flex: 1 1 35rem;
+    flex: 1 1 40rem;
 }
 
 .contact .row .image img {
@@ -814,13 +814,13 @@ html::-webkit-scrollbar-thumb {
 }
 
 .contact .row form {
-    flex: 1 1 35rem;
+    flex: 1 1 40rem;
     border: 0.1rem solid var(--primary-color);
     padding: 2rem;
 }
 
 .contact .row form h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #444;
     padding-bottom: 1rem;
     text-transform: none;
@@ -859,13 +859,13 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer .box-container .box h3 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: var(--primary-color);
     padding: 1rem 0;
 }
 
 .footer .box-container .box p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--black);
     line-height: 2;
     padding: 1rem 0;
@@ -876,9 +876,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer .box-container .box .share a {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
     border-radius: 10%;
     font-size: 1.7rem;
     border: 0.1rem solid var(--primary-color);
@@ -893,7 +893,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer .box-container .box .link {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     line-height: 2;
     color: var(--black);
     padding: 0.5rem 0;
@@ -906,9 +906,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .footer .credit {
-    font-size: 1rem;
-    margin-top: 2rem;
-    padding-top: 2rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
     text-align: center;
     color: var(--black);
     border-top: 0.1rem solid var(--primary-color);
@@ -982,9 +982,9 @@ html::-webkit-scrollbar-thumb {
 /* ================================================================ */
 .career-mega-menu {
     position: absolute;
-    top: 5em;
-    left: 30%;
-    width: 30%;
+    top: 7em;
+    left: 37%;
+    width: 27%;
     display: none !important;
     justify-content: start;
     align-items: center;
@@ -1035,7 +1035,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .acc-link {
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
     border-bottom: 2px solid var(--secondary);
 }
 
@@ -1077,7 +1077,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .hero-heading {
-    font-size: 3.5rem;
+    font-size: 6rem;
     color: white;
     font-weight: 600;
     width: 45%;
@@ -1087,7 +1087,7 @@ html::-webkit-scrollbar-thumb {
 
 .hero-para {
     padding: 15px 0px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
     width: 45%;
     padding-right: 100px;
@@ -1164,6 +1164,7 @@ section {
 
 .reg-form {
     row-gap: 20px;
+    font-size: 1.7rem;
 }
 
 .reg-inp {
@@ -1179,4 +1180,8 @@ section {
 
 .select-dev {
     padding: 0px 10px;
+}
+
+.select-dev .reg-inp {
+    padding: 10px 30px;
 }
